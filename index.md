@@ -1,7 +1,7 @@
 ---
 layout: default
 header_type: base
-title: Project Directory
+title: Lekwungen Narratives
 ---
 
 <div class="container-fluid">
@@ -11,7 +11,7 @@ title: Project Directory
       <div class="card h-100 border-0 shadow-sm">
         {% if project.image %}
         <a href="{{ project.url | relative_url }}">
-          <img src="{{ project.image }}" class="card-img-top" alt="{{ project.title }}" style="object-fit: cover; height: 200px;">
+          <img src="{{ project.image | relative_url }}" class="card-img-top" alt="{{ project.title }}" style="object-fit: cover; height: 200px;">
         </a>
         {% endif %}
         
@@ -25,7 +25,7 @@ title: Project Directory
         </div>
         
         <div class="card-footer bg-transparent border-top-0">
-          <a href="{{ project.url | relative_url }}" class="btn btn-primary btn-sm btn-block">View Project</a>
+          <a href="{{ project.url | relative_url }}" class="btn btn-primary btn-sm btn-block">Listen & Read</a>
         </div>
       </div>
     </div>
