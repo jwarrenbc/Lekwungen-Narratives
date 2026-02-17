@@ -1,1 +1,26 @@
+title: Lekwungen Narratives
+subtitle: An archive of Read Alongs in the Lekwungen language
+url: "https://jwarrenbc.github.io/Lekwungen-Narratives/"
+baseurl: "/Lekwungen-Narratives"
+
 remote_theme: dieghernan/chulapa
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-include-cache # Recommended by Chulapa for performance
+
+# ----------------------- #
+# Theme Settings (Chulapa)
+# ----------------------- #
+# You can change the 'skin' to change colors. 
+# Popular options: chulapa, dark, solar, minty, cerulean
+skin: chulapa 
+
+defaults:
+  - scope:
+      path: "" 
+    values:
+      layout: "default"   # Applies the main theme wrapper to all pages
+      header_type: "base" # Sets a standard navigation bar
+      show_footer: true   # Ensures the footer appears on all pages
