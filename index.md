@@ -23,9 +23,6 @@ This is an archive of recordings of **Lək̓ʷáŋən Elder Sophie Misheal** ma
           <h5 class="card-title">
             <a href="{{ project.url | relative_url }}" class="text-dark">{{ project.title }}</a>
           </h5>
-          {% if project.subtitle %}
-          <p class="card-text text-muted">{{ project.subtitle }}</p>
-          {% endif %}
         </div>
         
         <div class="card-footer bg-transparent border-top-0">
