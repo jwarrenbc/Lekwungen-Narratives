@@ -19,6 +19,7 @@ chulapa-skin:
   skin: chulapa
   vars:
     font-family-sans-serif: "'Noto Sans', sans-serif"
+    font-family-serif: "'Noto Sans', sans-serif"
     font-family-base: "'Noto Sans', sans-serif"
     headings-font-family: "'Noto Sans', sans-serif"
 
