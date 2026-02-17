@@ -18,10 +18,10 @@ googlefonts:
 chulapa-skin:
   skin: chulapa
   vars:
-    font-family-base: "'Noto Sans', sans-serif"
-    font-family-sans-serif: "'Noto Sans', sans-serif"
-    headings-font-family: "'Noto Sans', sans-serif"
-    font-family-serif: "'Noto Sans', sans-serif"
+    $chulapa-font: "'Noto Sans', sans-serif"
+    $font-family-base: "'Noto Sans', sans-serif"
+    $headings-font-family: "'Noto Sans', sans-serif"
+    $font-family-serif: "'Noto Sans', sans-serif"
 
 defaults:
   - scope:
@@ -30,3 +30,19 @@ defaults:
       layout: "default"   # Applies the main theme wrapper to all pages
       header_type: "base" # Sets a standard navigation bar
       show_footer: true   # Ensures the footer appears on all pages
+
+defaults:
+  - scope:
+      path: "" 
+    values:
+      layout: "default"
+      header_type: "base"
+      show_footer: true
+      
+  - scope:
+      path: "*-*" 
+    values:
+      project_links:
+        - url: "/Lekwungen-Narratives/" 
+          icon: "fas fa-home"
+          label: "Home"
