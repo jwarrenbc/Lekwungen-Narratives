@@ -10,12 +10,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache # Recommended by Chulapa for performance
 
-# ----------------------- #
-# Theme Settings (Chulapa)
-# ----------------------- #
-# You can change the 'skin' to change colors. 
-# Popular options: chulapa, dark, solar, minty, cerulean
-skin: chulapa 
+chulapa-skin:
+  skin: chulapa
 
 defaults:
   - scope:
