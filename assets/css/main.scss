@@ -1,32 +1,32 @@
 /* 1. Define the BC Sans Font Family */
 @font-face {
   font-family: 'BC Sans';
-  src: url('../fonts/2023_01_01_BCSans-Regular_2f.woff2') format('woff2'),
-       url('../fonts/2023_01_01_BCSans-Regular_2f.woff') format('woff');
+  src: url('/Lekwungen-Narratives/assets/fonts/2023_01_01_BCSans-Regular_2f.woff2') format('woff2'),
+       url('/Lekwungen-Narratives/assets/fonts/2023_01_01_BCSans-Regular_2f.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'BC Sans';
-  src: url('../fonts/2023_01_01_BCSans-Bold_2f.woff2') format('woff2'),
-       url('../fonts/2023_01_01_BCSans-Bold_2f.woff') format('woff');
+  src: url('/Lekwungen-Narratives/assets/fonts/2023_01_01_BCSans-Bold_2f.woff2') format('woff2'),
+       url('/Lekwungen-Narratives/assets/fonts/2023_01_01_BCSans-Bold_2f.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'BC Sans';
-  src: url('../fonts/2023_01_01_BCSans-Italic_2f.woff2') format('woff2'),
-       url('../fonts/2023_01_01_BCSans-Italic_2f.woff') format('woff');
+  src: url('/Lekwungen-Narratives/assets/fonts/2023_01_01_BCSans-Italic_2f.woff2') format('woff2'),
+       url('/Lekwungen-Narratives/assets/fonts/2023_01_01_BCSans-Italic_2f.woff') format('woff');
   font-weight: normal;
   font-style: italic;
 }
 
 /* 2. Override Bootstrap Variables */
-$font-family-sans-serif: "BC Sans", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
-$font-family-base: $font-family-sans-serif;
-$headings-font-family: $font-family-sans-serif;
+$font-family-sans-serif: 'BC Sans', sans-serif;
+$font-family-base: 'BC Sans', sans-serif;
+$headings-font-family: 'BC Sans', sans-serif;
 
 /* 3. Import Theme Styles */
 @import "chulapa-skins";
