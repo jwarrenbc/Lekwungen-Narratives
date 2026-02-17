@@ -1,8 +1,12 @@
 ---
 layout: default
 header_type: base
-title: Lekwungen Narratives
+title: Lək̓ʷáŋən Narratives
 ---
+
+This is an archive of recordings of **Lək̓ʷáŋən Elder Sophie Misheal** made by Marjorie Mitchell and Barabara Efrat. They were [digitized and transcribed by Timothy Montler](https://lekwungen.montler.net/) and set in [ReadAlongStudio](https://readalong-studio.mothertongues.org/) by Jared Warren.
+
+***
 
 <div class="container-fluid">
   <div class="row">
