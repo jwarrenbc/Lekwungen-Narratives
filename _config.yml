@@ -10,13 +10,15 @@ remote_theme: dieghernan/chulapa
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
-  - jekyll-include-cache # Recommended by Chulapa for performance
+  - jekyll-include-cache
+
+googlefonts:
+  - url: "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
 
 chulapa-skin:
   skin: chulapa
   font:
-    family: "'BC Sans', sans-serif"
-    url: "" # Not a Google font
+    family: "'Noto Sans', sans-serif"
 
 defaults:
   - scope:
