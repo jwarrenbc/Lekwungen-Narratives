@@ -2,12 +2,14 @@
 layout: default
 ---
 
+{% assign project = site.data.projects | where: "slug", page.slug | first %}
+
 <link href="https://fonts.googleapis.com/css?family=Lato%7CMaterial+Icons%7CMaterial+Icons+Outlined" rel="stylesheet">
 
 <div class="container py-5">
   <read-along
-    href="assets/{{ page.asset }}.readalong"
-    audio="assets/{{ page.asset }}.wav"
+    href="assets/{{ project.asset }}.readalong"
+    audio="assets/{{ project.asset }}.wav"
     theme="light"
     language="eng"
     image-assets-folder="assets/"

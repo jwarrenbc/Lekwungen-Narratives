@@ -3,7 +3,12 @@
     <div class="row">
       <div class="col-12">
         <p class="small mb-0">
-          {{ page.copyright | default: site.copyright }}
+          {% if page.slug %}
+            {% assign project = site.data.projects | where: "slug", page.slug | first %}
+            {{ project.copyright | default: site.copyright }}
+          {% else %}
+            {{ page.copyright | default: site.copyright }}
+          {% endif %}
         </p>
       </div>
     </div>
