@@ -1,0 +1,9 @@
+---
+---
+// Custom styles for Lekwungen Narratives
+// Override heading font-family to use Noto Sans
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Noto Sans', sans-serif !important;
+}
