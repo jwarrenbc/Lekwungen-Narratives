@@ -1,5 +1,5 @@
 ---
 layout: readalong
-slug: a-potlatch-at-penelakut-spit
+slug: a-potlatch-at-p
 title: A Potlatch at Penelakut Spit
 ---

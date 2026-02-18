@@ -1,5 +1,5 @@
 ---
 layout: readalong
-slug: collecting-seaweed
+slug: collecting-seaw
 title: Collecting Seaweed
 ---

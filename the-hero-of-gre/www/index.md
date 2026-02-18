@@ -1,5 +1,5 @@
 ---
 layout: readalong
-slug: the-hero-of-green-point
+slug: the-hero-of-gre
 title: The Hero of Green Point
 ---
