@@ -32,6 +32,6 @@ defaults:
       path: "*-*" 
     values:
       project_links:
-        - url: "/Lekwungen-Narratives/" 
+        - url: "/" 
           icon: "fas fa-home"
           label: "Home"
