@@ -15,9 +15,6 @@ plugins:
 googlefonts:
   - url: "https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
 
-custom_css:
-  - /assets/css/custom
-
 chulapa-skin:
   skin: chulapa
   vars:
