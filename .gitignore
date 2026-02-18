@@ -1,0 +1,3 @@
+# Ignore ReadAlongStudio-generated index.html files
+# (Jekyll uses index.md instead)
+**/www/index.html
