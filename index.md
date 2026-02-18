@@ -1,7 +1,7 @@
 ---
 layout: default
 header_type: base
-title: Lekwungen Narratives
+title: Lək̓ʷáŋən Narratives
 copyright: "Site &copy; 2026 Jared Warren"
 ---
 
