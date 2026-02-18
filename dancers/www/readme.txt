@@ -23,7 +23,7 @@ See https://github.com/ReadAlongs/Studio-Web/tree/main/packages/web-component/wo
 
 Deploy the read-along
 
-Upload the images, dancers-20260216171452.readalong and dancers-20260216171452.mp3 to your Media Library of your WordPress site.
+Upload the images, dancers-20260217191959.readalong and dancers-20260217191959.mp3 to your Media Library of your WordPress site.
 
 Use the text editor to paste the snippet below in your WordPress page:
 
@@ -31,7 +31,7 @@ Use the text editor to paste the snippet below in your WordPress page:
 
 <!-- wp:html -->
 [read_along_web_app_loader version="^1.6.3"]
-  <read-along href="/wp-content/uploads/2026/02/dancers-20260216171452.readalong" audio="/wp-content/uploads/2026/02/dancers-20260216171452.mp3" theme="light" language="eng" image-assets-folder="/wp-content/uploads/2026/02/">
+  <read-along href="/wp-content/uploads/2026/02/dancers-20260217191959.readalong" audio="/wp-content/uploads/2026/02/dancers-20260217191959.mp3" theme="light" language="eng" image-assets-folder="/wp-content/uploads/2026/02/">
             <span slot='read-along-header'>Dancers</span>
             <span slot='read-along-subheader'>Sophie Misheal (July 25, 1966)</span>
         </read-along>
